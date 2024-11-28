@@ -1,7 +1,7 @@
 # Event-Search
 ## Overview
 
-The Event Search and Statistics Dashboard is a comprehensive web application that allows users to explore, filter, and visualize event data stored in Elasticsearch. It features a search functionality for finding specific events and a statistics section for visualizing event trends.
+The Event Search and Statistics Dashboard is a comprehensive web application that allows users to explore, filter, and visualize event data stored in Elasticsearch. It features a search functionality for finding specific events and a statistics section for visualizing event trends. The data used for this project includes around 1000 events across the USA, sourced from the Ticketmaster API.
 
 ## Features
 
@@ -48,7 +48,7 @@ Event Statistics: <br/>
 	•	Open the file load_to_es.py and ensure your Elasticsearch host and port (192.168.0.59:9200) are correct. <br/>
 	•	This script includes: <br/>
 	•	Defining the index mapping for the events3 index. <br/>
-	•	Loading event data into Elasticsearch. <br/>
+	•	Loading Ticketmaster API data of around 1000 events into Elasticsearch. <br/>
 	•	Run the script: <br/>
 ```
 python load_to_es.py
