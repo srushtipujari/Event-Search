@@ -99,9 +99,3 @@ streamlit run frontend1.py
 • Flask: Backend API development. <br/>
 • Streamlit: Interactive dashboard frontend. <br/>
 • Plotly: Data visualization in the statistics section. <br/>
-
-## Troubleshooting
-
-• Elasticsearch Connection Error: Ensure Elasticsearch is running on 192.168.0.59:9200. <br/>
-• Data Not Loaded: Run load_to_es.py to reload data into Elasticsearch. <br/>
-• Frontend/Backend Issues: Check that Flask (backend1.py) and Streamlit (frontend1.py) applications are running without errors. <br/>
